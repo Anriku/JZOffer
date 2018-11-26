@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ae99c69-ec31-4ab5-aba8-5310cf7952fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter4/LayerTraverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter4/VerifySequenceOfBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter4/CloneLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter4/FindPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,15 +17,15 @@
     <session id="373595797">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="22" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="12" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -35,7 +33,7 @@
           <entry key="class" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="iml" value="2" />
-          <entry key="java" value="84" />
+          <entry key="java" value="86" />
           <entry key="kt" value="1" />
           <entry key="xml" value="2" />
         </counts>
@@ -44,7 +42,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="84" />
+          <entry key="JAVA" value="86" />
           <entry key="Kotlin" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="2" />
@@ -54,13 +52,13 @@
         <counts>
           <entry key="dummy" value="13" />
           <entry key="gitignore" value="4" />
-          <entry key="java" value="16234" />
+          <entry key="java" value="17848" />
           <entry key="kt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="16234" />
+          <entry key="JAVA" value="17848" />
           <entry key="Kotlin" value="3" />
           <entry key="PLAIN_TEXT" value="17" />
         </counts>
@@ -70,10 +68,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter4/VerifySequenceOfBST.java">
+        <entry file="file://$PROJECT_DIR$/src/chapter4/CloneLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="21" selection-end-column="9" />
+              <folding>
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,6 +148,8 @@
         <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/chapter4/LayerTraverse.java" />
         <option value="$PROJECT_DIR$/src/chapter4/VerifySequenceOfBST.java" />
+        <option value="$PROJECT_DIR$/src/chapter4/FindPath.java" />
+        <option value="$PROJECT_DIR$/src/chapter4/CloneLinkedList.java" />
       </list>
     </option>
   </component>
@@ -160,7 +164,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,11 +186,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="LinkeList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;ArrayDe&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayDeque.java&#10;ArrBlo&#9;PSI&#9;JAVA://java.util.concurrent.ArrayBlockingQueue&#10;Blocking&#9;PSI&#9;JAVA://java.util.concurrent.BlockingDeque&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;Collection&#9;PSI&#9;JAVA://java.util.Collection&#10;ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542904603720" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543250410048" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -202,13 +206,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VerifySequenceOfBST">
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.HeapSort" />
+  <component name="RunManager" selected="Application.CloneLinkedList">
+    <configuration name="CloneLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter4.CloneLinkedList" />
       <module name="JZOffer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="chapter4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter4.FindPath" />
+      <module name="JZOffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,19 +239,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="chapter4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.MergeSort" />
-      <module name="JZOffer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,19 +267,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HeapSort" />
-      <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.LayerTraverse" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.VerifySequenceOfBST" />
+      <item itemvalue="Application.FindPath" />
+      <item itemvalue="Application.CloneLinkedList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CloneLinkedList" />
+        <item itemvalue="Application.FindPath" />
         <item itemvalue="Application.VerifySequenceOfBST" />
         <item itemvalue="Application.LayerTraverse" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.HeapSort" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +300,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22174536" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2274678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -304,7 +308,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2939759" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3120482" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.386747" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -572,14 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2465">
           <caret line="1028" column="30" selection-start-line="1028" selection-start-column="30" selection-end-line="1028" selection-end-column="30" />
-          <folding>
-            <element signature="e#23585#23586#0" expanded="true" />
-            <element signature="e#23639#23640#0" expanded="true" />
-            <element signature="e#24280#24281#0" expanded="true" />
-            <element signature="e#24345#24346#0" expanded="true" />
-            <element signature="e#68467#68468#0" expanded="true" />
-            <element signature="e#68524#68525#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -622,10 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -640,10 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-177">
           <caret line="110" column="31" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="31" />
-          <folding>
-            <element signature="e#34542#34543#0" expanded="true" />
-            <element signature="e#34589#34590#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -675,7 +663,25 @@
     <entry file="file://$PROJECT_DIR$/src/chapter4/VerifySequenceOfBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter4/FindPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter4/CloneLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
