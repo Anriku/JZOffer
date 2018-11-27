@@ -1,4 +1,4 @@
-package chapter3;
+package JZOffer.chapter3;
 
 /**
  * 用于打印1到N位数。N的长度不确定因此不能用int、long等来做。这里通过字符数字来解决。

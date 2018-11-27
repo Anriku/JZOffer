@@ -1,4 +1,4 @@
-package chapter2;
+package JZOffer.chapter2;
 
 /**
  * 将字符串中空格替换为%20

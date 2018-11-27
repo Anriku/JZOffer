@@ -1,4 +1,4 @@
-package chapter2;
+package JZOffer.chapter2;
 
 /**
  * Fibonacci数列

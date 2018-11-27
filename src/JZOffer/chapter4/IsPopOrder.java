@@ -1,6 +1,4 @@
-package chapter4;
-
-import java.util.Stack;
+package JZOffer.chapter4;
 
 /**
  * 两个序列判断第二序列是不是第一个序列压入弹出的序列

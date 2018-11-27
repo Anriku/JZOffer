@@ -1,4 +1,4 @@
-package chapter3;
+package JZOffer.chapter3;
 
 /**
  * 判断Tree2是不是Tree1的子树

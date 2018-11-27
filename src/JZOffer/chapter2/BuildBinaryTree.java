@@ -1,4 +1,4 @@
-package chapter2;
+package JZOffer.chapter2;
 
 /**
  * 通过中序遍历和前序遍历重建二叉树，并用后序遍历输出

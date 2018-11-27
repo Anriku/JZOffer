@@ -1,4 +1,4 @@
-package chapter3;
+package JZOffer.chapter3;
 
 /**
  * 删除单项链表倒数第k个节点

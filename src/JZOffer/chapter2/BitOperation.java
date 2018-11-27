@@ -1,4 +1,4 @@
-package chapter2;
+package JZOffer.chapter2;
 
 /**
  * 计算一个正数的二进制有多少1

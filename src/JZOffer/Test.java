@@ -1,10 +1,12 @@
+package JZOffer;
+
 public class Test {
 
     static boolean isWait = true;
 
     public static void main(String[] args) throws InterruptedException {
-//        Test test1 = new Test();
-//        Test test2 = new Test();
+//        JZOffer.Test test1 = new JZOffer.Test();
+//        JZOffer.Test test2 = new JZOffer.Test();
 //
 //        test1.isWait = true;
 //        test2.isWait = false;
