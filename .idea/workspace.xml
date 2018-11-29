@@ -2,35 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ae99c69-ec31-4ab5-aba8-5310cf7952fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sort/javasort/JavaSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/javasort/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thebeautyofprogram/chapter1/StringContain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thebeautyofprogram/chapter1/StringReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thebeautyofprogram/chapter2/FindSeveralNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thebeautyofprogram/chapter2/FindTwoNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thebeautyofprogram/chapter2/TheMaximumChildArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/BitOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/chapter2/BitOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/BuildBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/chapter2/BuildBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/CustomPow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/chapter2/CustomPow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/chapter2/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/QueueByStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/chapter2/QueueByStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/chapter2/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/ReplaceString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/chapter2/ReplaceString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/chapter2/RotateArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/SearchInTwoDimArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/chapter2/SearchInTwoDimArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter3/FindSubTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/chapter3/FindSubTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter3/LinkListReverseNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/chapter3/LinkListReverseNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter3/OddFrontEvenBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/chapter3/OddFrontEvenBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter3/PrintfOneToNWithCharArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/chapter3/PrintfOneToNWithCharArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter3/PrintfOneToNWithRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/chapter3/PrintfOneToNWithRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter3/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/chapter3/ReverseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter4/ClockwisePrintMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/chapter4/ClockwisePrintMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter4/CloneLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/chapter4/CloneLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter4/FindPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/chapter4/FindPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter4/IsPopOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/chapter4/IsPopOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter4/LayerTraverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/chapter4/LayerTraverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter4/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/chapter4/MinStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter4/MirrorBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/chapter4/MirrorBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter4/VerifySequenceOfBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JZOffer/chapter4/VerifySequenceOfBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JZOffer/chapter2/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/QuickSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,68 +15,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="373595797">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="24" />
-          <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="3" />
-          <entry key="project.open.time.4" value="12" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="25" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="1" />
-          <entry key="gitignore" value="1" />
-          <entry key="iml" value="2" />
-          <entry key="java" value="99" />
-          <entry key="kt" value="1" />
-          <entry key="xml" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="99" />
-          <entry key="Kotlin" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="13" />
-          <entry key="gitignore" value="4" />
-          <entry key="java" value="19343" />
-          <entry key="kt" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="19343" />
-          <entry key="Kotlin" value="3" />
-          <entry key="PLAIN_TEXT" value="17" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/thebeautyofprogram/chapter1/StringContain.java">
+        <entry file="file://$PROJECT_DIR$/src/thebeautyofprogram/chapter2/TheMaximumChildArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+            <state relative-caret-position="180">
+              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding>
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -183,10 +106,15 @@
         <option value="$PROJECT_DIR$/src/JZOffer/Test.java" />
         <option value="$PROJECT_DIR$/src/thebeautyofprogram/chapter1/StringReverse.java" />
         <option value="$PROJECT_DIR$/src/thebeautyofprogram/chapter1/StringContain.java" />
+        <option value="$PROJECT_DIR$/src/sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/thebeautyofprogram/chapter2/FindTwoNum.java" />
+        <option value="$PROJECT_DIR$/src/thebeautyofprogram/chapter2/FindServalNum.java" />
+        <option value="$PROJECT_DIR$/src/thebeautyofprogram/chapter2/FindSeveralNum.java" />
+        <option value="$PROJECT_DIR$/src/thebeautyofprogram/chapter2/TheMaximumChildArray.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="714" />
     <option name="height" value="900" />
   </component>
@@ -197,7 +125,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,15 +137,29 @@
               <item name="JZOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JZOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JZOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="thebeautyofprogram" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JZOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JZOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="thebeautyofprogram" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="ArraLis&#9;PSI&#9;JAVA://java.util.ArrayList&#10;Collections&#9;PSI&#9;JAVA://java.util.Collections&#10;LinkeList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;ArrayDe&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayDeque.java&#10;ArrBlo&#9;PSI&#9;JAVA://java.util.concurrent.ArrayBlockingQueue&#10;Blocking&#9;PSI&#9;JAVA://java.util.concurrent.BlockingDeque&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;Collection&#9;PSI&#9;JAVA://java.util.Collection&#10;ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543335385560" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543511174935" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -233,13 +174,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringContain">
-    <configuration name="CloneLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JZOffer.chapter4.CloneLinkedList" />
+  <component name="RunManager" selected="Application.TheMaximumChildArray">
+    <configuration name="FindSeveralNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thebeautyofprogram.chapter2.FindSeveralNum" />
       <module name="JZOffer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JZOffer.chapter4.*" />
+          <option name="PATTERN" value="thebeautyofprogram.chapter2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JZOffer.chapter4.FindPath" />
+    <configuration name="FindTwoNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thebeautyofprogram.chapter2.FindTwoNum" />
       <module name="JZOffer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JZOffer.chapter4.*" />
+          <option name="PATTERN" value="thebeautyofprogram.chapter2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,12 +201,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.javasort.JavaSort" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
       <module name="JZOffer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.javasort.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,12 +227,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thebeautyofprogram.chapter1.StringReverse" />
+    <configuration name="TheMaximumChildArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thebeautyofprogram.chapter2.TheMaximumChildArray" />
       <module name="JZOffer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thebeautyofprogram.chapter1.*" />
+          <option name="PATTERN" value="thebeautyofprogram.chapter2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,19 +241,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FindPath" />
-      <item itemvalue="Application.CloneLinkedList" />
-      <item itemvalue="Application.JavaSort" />
-      <item itemvalue="Application.StringReverse" />
       <item itemvalue="Application.StringContain" />
+      <item itemvalue="Application.FindTwoNum" />
+      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.FindSeveralNum" />
+      <item itemvalue="Application.TheMaximumChildArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TheMaximumChildArray" />
+        <item itemvalue="Application.FindSeveralNum" />
+        <item itemvalue="Application.FindTwoNum" />
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.StringContain" />
-        <item itemvalue="Application.StringReverse" />
-        <item itemvalue="Application.JavaSort" />
-        <item itemvalue="Application.CloneLinkedList" />
-        <item itemvalue="Application.FindPath" />
       </list>
     </recent_temporary>
   </component>
@@ -331,8 +272,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23319027" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24248926" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -340,7 +282,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3120482" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3120482" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.386747" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -356,10 +298,8 @@
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Maven" order="7" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
@@ -371,34 +311,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/JZOffer/chapter2/BitOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JZOffer/chapter2/BuildBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JZOffer/chapter3/PrintfOneToNWithCharArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JZOffer/chapter2/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JZOffer/chapter3/PrintfOneToNWithRecursion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -722,6 +634,37 @@
           <folding>
             <element signature="e#164#165#0" expanded="true" />
             <element signature="e#200#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thebeautyofprogram/chapter2/FindTwoNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thebeautyofprogram/chapter2/FindSeveralNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thebeautyofprogram/chapter2/TheMaximumChildArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

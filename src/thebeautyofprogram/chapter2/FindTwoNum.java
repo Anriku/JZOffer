@@ -1,20 +1,30 @@
-package JZOffer.chapter2;
+package thebeautyofprogram.chapter2;
 
 import java.util.Random;
 
 /**
- * 快速排序
+ * 寻找数值中和为定值的两个数
  */
-public class QuickSort {
-
+public class FindTwoNum {
 
     public static void main(String[] args) {
-        int[] nums = new int[]{1,3,2,10,8,3,20,15};
+        int[] num = {11, 15, 1, 2, 4, 5, 7};
+        findTowNum(num, 15);
+    }
 
-        quickSort(nums, 0, 7);
-        for (int i:
-             nums) {
-            System.out.println(i);
+    public static void findTowNum(int[] num, int sum) {
+        quickSort(num, 0, num.length - 1);
+        int start = 0, end = num.length - 1;
+        while (start < end) {
+            int re = num[start] + num[end];
+            if (re == sum) {
+                System.out.println("num1 is " + num[start] + ", num2 is " + num[end]);
+                break;
+            } else if (re < sum) {
+                start++;
+            } else {
+                end--;
+            }
         }
     }
 
@@ -35,9 +45,10 @@ public class QuickSort {
     public static int partition(int[] nums, int start, int end) {
 
         Random random = new Random();
-        int index = random.nextInt(end + 1);
+        int index = random.nextInt(end - start + 1) + start;
         swap(nums, index, end);
 
+        // small指向的是上一个小于枢纽元素的的元素
         int small = start - 1;
 
         for (index = start; index < end; index++) {
