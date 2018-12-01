@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ae99c69-ec31-4ab5-aba8-5310cf7952fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thebeautyofprogram/chapter2/FindSeveralNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thebeautyofprogram/chapter2/FindTwoNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thebeautyofprogram/chapter2/TheMaximumChildArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basicalgorithm/dp/CoinChangingProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basicalgorithm/dp/KnapsackProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basicalgorithm/dp/LIS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basicalgorithm/dp/LargestSquare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JZOffer/chapter2/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/BobbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicalgorithm/sort/BobbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/DirectInsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicalgorithm/sort/DirectInsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicalgorithm/sort/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicalgorithm/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicalgorithm/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicalgorithm/sort/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/SimpleSelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicalgorithm/sort/SimpleSelectSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/javasort/JavaSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicalgorithm/sort/javasort/JavaSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/javasort/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicalgorithm/sort/javasort/Person.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,14 +26,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/thebeautyofprogram/chapter2/TheMaximumChildArray.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/basicalgorithm/dp/LargestSquare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/basicalgorithm/dp/LIS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -61,10 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Chapter2/QuikSort.java" />
-        <option value="$PROJECT_DIR$/src/Chapter2/Fibonacci.java" />
-        <option value="$PROJECT_DIR$/src/Chapter2/BuildBinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/Chapter2/QueueByStack.java" />
         <option value="$PROJECT_DIR$/src/Chapter2/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/Chapter2/ReplaceString.java" />
         <option value="$PROJECT_DIR$/src/Chapter2/RotateArray.java" />
@@ -111,6 +122,11 @@
         <option value="$PROJECT_DIR$/src/thebeautyofprogram/chapter2/FindServalNum.java" />
         <option value="$PROJECT_DIR$/src/thebeautyofprogram/chapter2/FindSeveralNum.java" />
         <option value="$PROJECT_DIR$/src/thebeautyofprogram/chapter2/TheMaximumChildArray.java" />
+        <option value="$PROJECT_DIR$/src/basicalgorithm/dp/CoinChangingProblem.java" />
+        <option value="$PROJECT_DIR$/src/basicalgorithm/dp/KnapsackPromble.java" />
+        <option value="$PROJECT_DIR$/src/basicalgorithm/dp/KnapsackProblem.java" />
+        <option value="$PROJECT_DIR$/src/basicalgorithm/dp/LargestSquare.java" />
+        <option value="$PROJECT_DIR$/src/basicalgorithm/dp/LIS.java" />
       </list>
     </option>
   </component>
@@ -125,6 +141,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,25 +158,24 @@
               <item name="JZOffer" type="b2602c69:ProjectViewProjectNode" />
               <item name="JZOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="thebeautyofprogram" type="462c0819:PsiDirectoryNode" />
+              <item name="basicalgorithm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JZOffer" type="b2602c69:ProjectViewProjectNode" />
               <item name="JZOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="thebeautyofprogram" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="basicalgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="dp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="ArraLis&#9;PSI&#9;JAVA://java.util.ArrayList&#10;Collections&#9;PSI&#9;JAVA://java.util.Collections&#10;LinkeList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;ArrayDe&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayDeque.java&#10;ArrBlo&#9;PSI&#9;JAVA://java.util.concurrent.ArrayBlockingQueue&#10;Blocking&#9;PSI&#9;JAVA://java.util.concurrent.BlockingDeque&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;Collection&#9;PSI&#9;JAVA://java.util.Collection&#10;ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543511174935" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543659869103" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -174,13 +190,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TheMaximumChildArray">
-    <configuration name="FindSeveralNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thebeautyofprogram.chapter2.FindSeveralNum" />
+  <component name="RunManager" selected="Application.LIS">
+    <configuration name="CoinChangingProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicalgorithm.dp.CoinChangingProblem" />
       <module name="JZOffer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thebeautyofprogram.chapter2.*" />
+          <option name="PATTERN" value="basicalgorithm.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,12 +204,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindTwoNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thebeautyofprogram.chapter2.FindTwoNum" />
+    <configuration name="KnapsackProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicalgorithm.dp.KnapsackProblem" />
       <module name="JZOffer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thebeautyofprogram.chapter2.*" />
+          <option name="PATTERN" value="basicalgorithm.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,12 +217,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
+    <configuration name="LIS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicalgorithm.dp.LIS" />
       <module name="JZOffer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="basicalgorithm.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,12 +230,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringContain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thebeautyofprogram.chapter1.StringContain" />
+    <configuration name="LargestSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicalgorithm.dp.LargestSquare" />
       <module name="JZOffer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thebeautyofprogram.chapter1.*" />
+          <option name="PATTERN" value="basicalgorithm.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -241,19 +257,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StringContain" />
-      <item itemvalue="Application.FindTwoNum" />
-      <item itemvalue="Application.QuickSort" />
-      <item itemvalue="Application.FindSeveralNum" />
       <item itemvalue="Application.TheMaximumChildArray" />
+      <item itemvalue="Application.CoinChangingProblem" />
+      <item itemvalue="Application.KnapsackProblem" />
+      <item itemvalue="Application.LargestSquare" />
+      <item itemvalue="Application.LIS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LIS" />
+        <item itemvalue="Application.LargestSquare" />
+        <item itemvalue="Application.KnapsackProblem" />
+        <item itemvalue="Application.CoinChangingProblem" />
         <item itemvalue="Application.TheMaximumChildArray" />
-        <item itemvalue="Application.FindSeveralNum" />
-        <item itemvalue="Application.FindTwoNum" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.StringContain" />
       </list>
     </recent_temporary>
   </component>
@@ -272,9 +288,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24248926" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -282,12 +297,12 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3120482" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19879518" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.386747" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -311,41 +326,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/JZOffer/chapter3/PrintfOneToNWithRecursion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JZOffer/chapter3/OddFrontEvenBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JZOffer/chapter3/LinkListReverseNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JZOffer/chapter3/ReverseList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JZOffer/chapter3/FindSubTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -407,28 +387,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/ShellSort.java">
+    <entry file="file://$PROJECT_DIR$/src/basicalgorithm/sort/ShellSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/SimpleSelectSort.java">
+    <entry file="file://$PROJECT_DIR$/src/basicalgorithm/sort/SimpleSelectSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/BobbleSort.java">
+    <entry file="file://$PROJECT_DIR$/src/basicalgorithm/sort/BobbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/DirectInsertSort.java">
+    <entry file="file://$PROJECT_DIR$/src/basicalgorithm/sort/DirectInsertSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" selection-start-line="10" selection-end-line="15" selection-end-column="9" />
@@ -456,14 +436,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/MergeSort.java">
+    <entry file="file://$PROJECT_DIR$/src/basicalgorithm/sort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/HeapSort.java">
+    <entry file="file://$PROJECT_DIR$/src/basicalgorithm/sort/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
@@ -589,7 +569,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/javasort/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/basicalgorithm/sort/javasort/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
@@ -602,7 +582,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/javasort/JavaSort.java">
+    <entry file="file://$PROJECT_DIR$/src/basicalgorithm/sort/javasort/JavaSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
@@ -645,7 +625,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/QuickSort.java">
+    <entry file="file://$PROJECT_DIR$/src/basicalgorithm/sort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
@@ -661,11 +641,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thebeautyofprogram/chapter2/TheMaximumChildArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="165">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JZOffer/chapter2/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basicalgorithm/dp/CoinChangingProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basicalgorithm/dp/KnapsackProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basicalgorithm/dp/LargestSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basicalgorithm/dp/LIS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
         </state>
       </provider>
     </entry>

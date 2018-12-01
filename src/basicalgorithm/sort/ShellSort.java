@@ -1,4 +1,4 @@
-package sort;
+package basicalgorithm.sort;
 
 /**
  * 希尔排序

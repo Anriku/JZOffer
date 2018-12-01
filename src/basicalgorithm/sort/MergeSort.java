@@ -1,4 +1,4 @@
-package sort;
+package basicalgorithm.sort;
 
 /**
  * 归并排序

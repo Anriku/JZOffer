@@ -1,4 +1,4 @@
-package sort;
+package basicalgorithm.sort;
 
 /**
  * 简单选择排序。

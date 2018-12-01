@@ -1,4 +1,4 @@
-package sort.javasort;
+package basicalgorithm.sort.javasort;
 
 import java.util.*;
 
@@ -21,7 +21,7 @@ public class JavaSort {
         }};
 
 //        // 使用Comparable
-//        Collections.sort(list);
+//        Collections.basicalgorithm.sort(list);
         // 使用Comparator
         Collections.sort(list, (o1, o2) -> o2.age - o1.age);
         for (Person person :

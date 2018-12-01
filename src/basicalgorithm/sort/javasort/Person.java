@@ -1,4 +1,4 @@
-package sort.javasort;
+package basicalgorithm.sort.javasort;
 
 public class Person implements Comparable<Person> {
 

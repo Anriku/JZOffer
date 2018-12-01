@@ -1,4 +1,4 @@
-package sort;
+package basicalgorithm.sort;
 
 /**
  * 冒泡排序：
