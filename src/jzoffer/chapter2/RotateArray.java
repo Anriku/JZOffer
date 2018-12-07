@@ -1,4 +1,4 @@
-package JZOffer.chapter2;
+package jzoffer.chapter2;
 
 /**
  * 求旋转数组中的最小数

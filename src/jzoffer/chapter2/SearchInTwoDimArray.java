@@ -1,4 +1,4 @@
-package JZOffer.chapter2;
+package jzoffer.chapter2;
 
 /**
  * 一个下面例子中的特点的数组。输入某个数在其中进行查询

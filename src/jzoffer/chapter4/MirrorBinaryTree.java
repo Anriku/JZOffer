@@ -1,4 +1,4 @@
-package JZOffer.chapter4;
+package jzoffer.chapter4;
 
 /**
  * 获取二叉树的镜像

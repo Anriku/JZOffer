@@ -1,4 +1,4 @@
-package JZOffer.chapter4;
+package jzoffer.chapter4;
 
 /**
  * 复制复杂链表

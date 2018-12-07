@@ -1,4 +1,4 @@
-package JZOffer.chapter2;
+package jzoffer.chapter2;
 
 import java.util.Stack;
 

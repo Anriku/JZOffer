@@ -1,4 +1,4 @@
-package JZOffer.chapter2;
+package jzoffer.chapter2;
 
 /**
  * 自定义整数次方幂

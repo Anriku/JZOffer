@@ -15,37 +15,37 @@ public class LargestSquare {
         int h = scanner.nextInt();
         int w = scanner.nextInt();
 
-        int[][] square = new int[h][w];
+        int[][] area = new int[h][w];
         for (int i = 0; i < h; i++) {
             for (int j = 0; j < w; j++) {
-                square[i][j] = scanner.nextInt();
+                area[i][j] = scanner.nextInt();
             }
         }
 
-        System.out.println(getLargestSquare(square, h, w));
+        System.out.println(getLargestSquare(area, h, w));
 
     }
 
-    public static int getLargestSquare(int[][] square, int h, int w) {
+    public static int getLargestSquare(int[][] area, int h, int w) {
         int maxWidth = 0;
 
         for (int i = 0; i < h; i++) {
             for (int j = 0; j < w; j++) {
-                square[i][j] = (square[i][j] + 1) % 2;
+                area[i][j] = (area[i][j] + 1) % 2;
 
                 // i = 0 或j = 0情况在后不会考虑到这里进行处理
-                maxWidth |= square[i][j];
+                maxWidth |= area[i][j];
             }
         }
 
         for (int i = 1; i < h; i++) {
             for (int j = 1; j < w; j++) {
-                if (square[i][j] == 1) {
-                    int minWidth = Math.min(square[i - 1][j], square[i][j - 1]);
-                    minWidth = Math.min(square[i - 1][j - 1], minWidth);
+                if (area[i][j] == 1) {
+                    int minWidth = Math.min(area[i - 1][j], area[i][j - 1]);
+                    minWidth = Math.min(area[i - 1][j - 1], minWidth);
 
-                    square[i][j] = minWidth + 1;
-                    maxWidth = Math.max(square[i][j], maxWidth);
+                    area[i][j] = minWidth + 1;
+                    maxWidth = Math.max(area[i][j], maxWidth);
                 }
             }
         }

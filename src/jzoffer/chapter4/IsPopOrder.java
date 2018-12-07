@@ -1,4 +1,4 @@
-package JZOffer.chapter4;
+package jzoffer.chapter4;
 
 /**
  * 两个序列判断第二序列是不是第一个序列压入弹出的序列

@@ -1,4 +1,4 @@
-package JZOffer.chapter3;
+package jzoffer.chapter3;
 
 /**
  * 奇数在前偶数在后

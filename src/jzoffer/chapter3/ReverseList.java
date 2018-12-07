@@ -1,4 +1,4 @@
-package JZOffer.chapter3;
+package jzoffer.chapter3;
 
 /**
  * 将单项链表进行反转

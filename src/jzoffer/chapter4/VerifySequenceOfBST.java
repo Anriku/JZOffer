@@ -1,4 +1,4 @@
-package JZOffer.chapter4;
+package jzoffer.chapter4;
 
 /**
  * 判断一个数组序列是不是二叉搜索树的后序遍历

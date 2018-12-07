@@ -1,4 +1,4 @@
-package JZOffer.chapter3;
+package jzoffer.chapter3;
 
 /**
  * 使用全排序来进行1到N位数的打印
