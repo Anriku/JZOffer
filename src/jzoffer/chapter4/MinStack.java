@@ -15,9 +15,9 @@ public class MinStack {
         minStack = new Stack<>();
 
         push(9);
-        push(2);
         push(3);
-        push(5);
+        push(3);
+        push(3);
         push(3);
         push(1);
 
@@ -31,7 +31,7 @@ public class MinStack {
             minStack.push(value);
         } else if (minStack.peek() > value) {
             minStack.push(value);
-        } else if (minStack.peek() < value) {
+        } else {
             minStack.push(minStack.peek());
         }
 

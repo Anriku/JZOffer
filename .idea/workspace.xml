@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ae99c69-ec31-4ab5-aba8-5310cf7952fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/jzoffer/chapter5/FirstCommonNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jzoffer/chapter5/InversePairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jzoffer/chapter5/MinNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jzoffer/chapter5/UglyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jzoffer/chapter6/ContinuousCards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jzoffer/chapter6/DicesProbability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jzoffer/chapter6/NumberOfKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jzoffer/chapter6/TreeDepth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jzoffer/chapter4/ClockwisePrintMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jzoffer/chapter4/ClockwisePrintMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jzoffer/chapter4/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jzoffer/chapter4/MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jzoffer/chapter5/FirstCommonNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jzoffer/chapter5/FirstCommonNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter5/FirstCommonNode.java">
+        <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter6/ContinuousCards.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            <state relative-caret-position="210">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -54,9 +56,11 @@
       <find>String(</find>
       <find>equals(</find>
       <find>put</find>
-      <find>put(</find>
       <find>capacity</find>
       <find>pow</find>
+      <find>put(</find>
+      <find>sort(</find>
+      <find>concat(</find>
     </findStrings>
     <replaceStrings>
       <replace>long</replace>
@@ -70,13 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter3/OddFrontEvenBack.java" />
-        <option value="$PROJECT_DIR$/src/chapter3/LinkListReverseNode.java" />
-        <option value="$PROJECT_DIR$/src/chapter3/ReverseList.java" />
-        <option value="$PROJECT_DIR$/src/chapter3/FindSubTree.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/chapter4/MirrorBinaryTree.kt" />
-        <option value="$PROJECT_DIR$/src/chapter4/MirrorBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/chapter4/ClockwisePrintMatrix.java" />
         <option value="$PROJECT_DIR$/src/chapter4/MinStack.java" />
         <option value="$PROJECT_DIR$/src/chapter4/IsPopOrder.java" />
@@ -121,11 +118,18 @@
         <option value="$PROJECT_DIR$/src/jzoffer/chapter5/UglyNumber.java" />
         <option value="$PROJECT_DIR$/src/jzoffer/chapter5/InversePairs.java" />
         <option value="$PROJECT_DIR$/src/jzoffer/chapter5/FirstCommonNode.java" />
+        <option value="$PROJECT_DIR$/src/jzoffer/chapter3/ReverseList.java" />
+        <option value="$PROJECT_DIR$/src/jzoffer/chapter4/MirrorBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/jzoffer/chapter4/ClockwisePrintMatrix.java" />
+        <option value="$PROJECT_DIR$/src/jzoffer/chapter4/MinStack.java" />
+        <option value="$PROJECT_DIR$/src/jzoffer/chapter6/DicesProbability.java" />
+        <option value="$PROJECT_DIR$/src/jzoffer/chapter6/ContinousCards.java" />
+        <option value="$PROJECT_DIR$/src/jzoffer/chapter6/ContinuousCards.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
+    <option name="width" value="714" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -159,7 +163,7 @@
               <item name="JZOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="jzoffer" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter5" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -169,7 +173,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="ArraLis&#9;PSI&#9;JAVA://java.util.ArrayList&#10;Collections&#9;PSI&#9;JAVA://java.util.Collections&#10;LinkeList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;ArrayDe&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayDeque.java&#10;ArrBlo&#9;PSI&#9;JAVA://java.util.concurrent.ArrayBlockingQueue&#10;Blocking&#9;PSI&#9;JAVA://java.util.concurrent.BlockingDeque&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;Collection&#9;PSI&#9;JAVA://java.util.Collection&#10;ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544492068951" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544709057531" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -184,13 +188,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InversePairs">
-    <configuration name="InversePairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jzoffer.chapter5.InversePairs" />
+  <component name="RunManager" selected="Application.ContinuousCards">
+    <configuration name="ContinuousCards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jzoffer.chapter6.ContinuousCards" />
       <module name="JZOffer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jzoffer.chapter5.*" />
+          <option name="PATTERN" value="jzoffer.chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jzoffer.chapter5.MinNumber" />
+    <configuration name="DicesProbability" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jzoffer.chapter6.DicesProbability" />
       <module name="JZOffer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jzoffer.chapter5.*" />
+          <option name="PATTERN" value="jzoffer.chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,12 +215,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumOfOneBetweenOneToN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jzoffer.chapter5.NumOfOneBetweenOneToN" />
+    <configuration name="MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jzoffer.chapter4.MinStack" />
       <module name="JZOffer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jzoffer.chapter5.*" />
+          <option name="PATTERN" value="jzoffer.chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,19 +228,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+    <configuration name="MirrorBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jzoffer.chapter4.MirrorBinaryTree" />
       <module name="JZOffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jzoffer.chapter4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UglyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jzoffer.chapter5.UglyNumber" />
+    <configuration name="StringPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jzoffer.chapter4.StringPermutation" />
       <module name="JZOffer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jzoffer.chapter5.*" />
+          <option name="PATTERN" value="jzoffer.chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,19 +255,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.NumOfOneBetweenOneToN" />
-      <item itemvalue="Application.MinNumber" />
-      <item itemvalue="Application.UglyNumber" />
-      <item itemvalue="Application.InversePairs" />
+      <item itemvalue="Application.MirrorBinaryTree" />
+      <item itemvalue="Application.MinStack" />
+      <item itemvalue="Application.StringPermutation" />
+      <item itemvalue="Application.DicesProbability" />
+      <item itemvalue="Application.ContinuousCards" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InversePairs" />
-        <item itemvalue="Application.UglyNumber" />
-        <item itemvalue="Application.MinNumber" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.NumOfOneBetweenOneToN" />
+        <item itemvalue="Application.ContinuousCards" />
+        <item itemvalue="Application.DicesProbability" />
+        <item itemvalue="Application.StringPermutation" />
+        <item itemvalue="Application.MinStack" />
+        <item itemvalue="Application.MirrorBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +288,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27753934" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -286,7 +296,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31566265" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25903615" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.426506" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -315,206 +325,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177">
-          <caret line="110" column="31" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5505">
-          <caret line="192" column="17" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter4/LayerTraverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter4/VerifySequenceOfBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter4/CloneLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter4/FindPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-274">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.xml.ws/com/sun/xml/internal/ws/policy/privateutil/PolicyUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="202" column="24" selection-start-line="202" selection-start-column="24" selection-end-line="202" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/RandomAccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="431" column="7" lean-forward="true" selection-start-line="431" selection-start-column="7" selection-end-line="431" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="501" column="17" selection-start-line="501" selection-start-column="17" selection-end-line="501" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basicalgorithm/sort/javasort/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basicalgorithm/sort/javasort/JavaSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-          <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thebeautyofprogram/chapter1/StringReverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thebeautyofprogram/chapter1/StringContain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding>
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thebeautyofprogram/chapter2/FindTwoNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thebeautyofprogram/chapter2/FindSeveralNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter2/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basicalgorithm/dp/CoinChangingProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basicalgorithm/dp/LIS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basicalgorithm/dp/LargestRectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="48" lean-forward="true" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basicalgorithm/dp/LargestSquare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter4/BSTToDuLinkList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding>
-            <element signature="e#1453#1454#0" expanded="true" />
-            <element signature="e#1495#1496#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter4/StringPermutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
@@ -579,19 +389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="50" column="63" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="63" />
-          <folding>
-            <element signature="e#24280#24281#0" expanded="true" />
-            <element signature="e#24345#24346#0" expanded="true" />
-            <element signature="e#68467#68468#0" expanded="true" />
-            <element signature="e#68524#68525#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/TreeSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -638,52 +435,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter5/NumOfOneBetweenOneToN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-          <folding>
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/StringLatin1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="102" column="22" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="1208" column="49" selection-start-line="1208" selection-start-column="49" selection-end-line="1208" selection-end-column="49" />
-          <folding>
-            <element signature="e#121460#121461#0" expanded="true" />
-            <element signature="e#121514#121515#0" expanded="true" />
-            <element signature="e#121548#121549#0" expanded="true" />
-            <element signature="e#121605#121606#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="1432" column="27" selection-start-line="1432" selection-start-column="27" selection-end-line="1432" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="5131" column="55" selection-start-line="5131" selection-start-column="55" selection-end-line="5131" selection-end-column="55" />
-          <folding>
-            <element signature="e#198037#198038#0" expanded="true" />
-            <element signature="e#198107#198108#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,13 +460,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter5/MinNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -737,6 +485,123 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter5/FirstCommonNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basicalgorithm/dp/LargestSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter3/PrintfOneToNWithRecursion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter3/PrintfOneToNWithCharArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter6/ContinuousSequence.class" />
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter6/NumberOfKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter6/TreeDepth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter3/OddFrontEvenBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter3/ReverseList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter3/LinkListReverseNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter3/FindSubTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="37" column="44" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter4/ClockwisePrintMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter4/MinStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter4/LayerTraverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter4/BSTToDuLinkList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter4/IsPopOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter5/NumOfOneBetweenOneToN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding>
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter5/InversePairs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -744,10 +609,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter5/FirstCommonNode.java">
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter4/MirrorBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="263">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter4/VerifySequenceOfBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter4/FindPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="28" column="72" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter4/CloneLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter4/StringPermutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="637" column="45" selection-start-line="637" selection-start-column="45" selection-end-line="637" selection-end-column="45" />
+          <folding>
+            <element signature="e#24280#24281#0" expanded="true" />
+            <element signature="e#24345#24346#0" expanded="true" />
+            <element signature="e#68467#68468#0" expanded="true" />
+            <element signature="e#68524#68525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="140" column="14" lean-forward="true" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="18" />
+          <folding>
+            <element signature="e#198037#198038#0" expanded="true" />
+            <element signature="e#198107#198108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="503" column="17" lean-forward="true" selection-start-line="503" selection-start-column="17" selection-end-line="503" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="1444" column="28" selection-start-line="1444" selection-start-column="28" selection-end-line="1444" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter6/NumbersAppearOnce$Num.class" />
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter5/MinNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter6/DicesProbability.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+          <folding>
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter2/BitOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="1963" column="29" selection-start-line="1963" selection-start-column="26" selection-end-line="1963" selection-end-column="29" />
+          <folding>
+            <element signature="e#121460#121461#0" expanded="true" />
+            <element signature="e#121514#121515#0" expanded="true" />
+            <element signature="e#121548#121549#0" expanded="true" />
+            <element signature="e#121605#121606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jzoffer/chapter6/ContinuousCards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
         </state>
       </provider>
     </entry>
