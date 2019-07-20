@@ -23,11 +23,10 @@ public class MergeSort {
     /**
      * 两步：1.分治 2.合并
      *
-     *
      * @param array 待排序数组
-     * @param re 排序后的数组
-     * @param s 待排序数组开始的位置
-     * @param e 待排序数组结束的位置
+     * @param re    排序后的数组
+     * @param s     待排序数组开始的位置
+     * @param e     待排序数组结束的位置
      */
     public static void mSort(int[] array, int[] re, int s, int e) {
 
@@ -45,6 +44,7 @@ public class MergeSort {
 
     /**
      * 进行归并操作
+     *
      * @param array
      * @param re
      * @param s

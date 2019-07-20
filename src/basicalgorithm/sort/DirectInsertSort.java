@@ -10,8 +10,7 @@ public class DirectInsertSort {
     public static void main(String[] args) {
         int[] array = {0, 1, 3, 2, 20, 35, 23, 3, 6, 3, 6, 10};
         sort(array);
-        for (int i :
-                array) {
+        for (int i : array) {
             System.out.println(i);
         }
     }

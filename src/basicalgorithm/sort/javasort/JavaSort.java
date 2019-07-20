@@ -12,7 +12,7 @@ public class JavaSort {
     }
 
     private static void listSort() {
-        List<Person> list = new ArrayList<>() {{
+        List<Person> list = new ArrayList<Person>() {{
             add(new Person(1));
             add(new Person(10));
             add(new Person(8));

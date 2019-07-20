@@ -11,7 +11,8 @@ package basicalgorithm.sort;
 public class HeapSort {
 
     public static void main(String[] args) {
-        int[] array = {10, 1, 3, 2, 20, 35, 23, 3, 6, 3, 6, 10};
+        // 索引位0的不进行数据存储
+        int[] array = {0, 1, 3, 2, 20, 35, 23, 3, 6, 3, 6, 10};
         sort(array);
         for (int i :
                 array) {
