@@ -8,7 +8,7 @@ public class InversePairs {
 
 
     public static void main(String[] args) {
-        int[] num = {7, 5, 6, 4};
+        int[] num = {8, 5, 6, 7};
         System.out.println(mSort(num, num, 0, num.length - 1));
     }
 
@@ -29,23 +29,22 @@ public class InversePairs {
     private static int mMerge(int[] array, int[] re, int s, int m, int e) {
         int i, j, k;
         int count = 0;
-
-        for (i = s, j = m + 1, k = s; i <= m && j <= e; k++) {
+        for (i = m, j = e, k = e; i >= s && j >= m + 1; k--) {
             if (array[i] > array[j]) {
                 count = count + j - m;
-                re[k] = array[j++];
+                re[k] = array[i--];
             } else {
-                re[k] = array[i++];
+                re[k] = array[j--];
             }
         }
 
-        while (i <= m) {
-            re[k++] = array[i++];
+        while (i >= s) {
+            re[k--] = array[i--];
+        }
+        while (j >= m + 1) {
+            re[k--] = array[j--];
         }
 
-        while (j <= e) {
-            re[k++] = array[j++];
-        }
         return count;
     }
 
